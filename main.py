@@ -13,7 +13,7 @@ CORS(app)
 
 # Ensure the directory exists
 data_directory = "/home/ubuntu/data"
-documents = SimpleDirectoryReader("telangana").load_data()
+documents = SimpleDirectoryReader("/telangana/").load_data()
 
 # System prompt (no changes)
 system_prompt = """
